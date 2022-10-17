@@ -509,12 +509,18 @@ html{
         display: block;
     }
 }
+@media all and (max-width:600px){
+    .p1,.p2{
+        font-size: 2.6rem;
+        letter-spacing: 0;
+    }
+    .p1{
+        margin-bottom: -50px;
+    }
+}
 @media all and (max-width:500px){
     .p1,.p2{
         font-size: 2.6rem;
-        /* border: 2px solid black; */
-        /* font-weight: 900;
-        letter-spacing: -3px; */
     }
     .p1{
         margin-bottom: -50px;
@@ -523,9 +529,6 @@ html{
 @media all and (max-width:360px){
     .p1,.p2{
         font-size: 2rem;
-        /* border: 2px solid black; */
-        /* font-weight: 900;
-        letter-spacing: -3px; */
     }
     .p1{
         margin-bottom: -35px;
