@@ -685,13 +685,19 @@ html{
     }
 }
 /* score @media ends */
+/* video */
 .videocontrol1{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 89%;
     margin: auto;
     gap: 15px;
     margin-top: 30px;
+    /* border: 2px solid black; */
+    overflow: auto;
+}
+.videocontrol1::-webkit-scrollbar{
+    display: none;
 }
 .video{
     display: flex;
@@ -703,21 +709,22 @@ html{
     position: relative;
 }
 .video1{
-    width: 100%;
-    height: 100%;
+    width: 32%;
+    /* min-width: 30%; */
+    height: 250px;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
     /* border: 2px solid red; */
     /* transition: .5s; */
 }
 .video1:hover{
     /* transform: scale(.9); */
 }
-.video2{
+/* .video2{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -727,18 +734,40 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+/* video ends */
+/* video @media*/
+@media all and (max-width:1000px){
+   .video1{
+    min-width: 40%;
+   } 
 }
-.video22{
-    min-width: 70px;
-    max-width: 70px;
-    height: 70px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: .5s;
-}
-.video22:hover{
-    transform: scale(.9);
-}
+@media all and (max-width:800px){
+    .video1{
+     min-width: 50%;
+    } 
+ }
+ @media all and (max-width:700px){
+    .video1{
+     min-width: 70%;
+    } 
+ }
+ @media all and (max-width:600px){
+    .video1{
+     min-width: 80%;
+    } 
+ }
+ @media all and (max-width:500px){
+    .video1{
+     min-width: 90%;
+    } 
+ }
+ @media all and (max-width:400px){
+    .video1{
+     min-width: 100%;
+    } 
+ }
+/* video @media ends*/
 /* about */
 .about{
     padding-bottom: 80px;
