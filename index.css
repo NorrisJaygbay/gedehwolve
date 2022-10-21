@@ -746,6 +746,11 @@ html{
     .video1{
      min-width: 50%;
     } 
+    .videocontrol1{
+        /* display: flex; */
+        /* justify-content: center; */
+        width: 100%;
+    }
  }
  @media all and (max-width:700px){
     .video1{
@@ -763,6 +768,26 @@ html{
     } 
  }
  @media all and (max-width:400px){
+    .video1{
+     min-width: 100%;
+    } 
+ }
+ @media all and (max-width:300px){
+    .video1{
+     min-width: 100%;
+    } 
+ }
+ @media all and (max-width:250px){
+    .video1{
+     min-width: 100%;
+    } 
+ }
+ @media all and (max-width:200px){
+    .video1{
+     min-width: 100%;
+    } 
+ }
+ @media all and (max-width:150px){
     .video1{
      min-width: 100%;
     } 
